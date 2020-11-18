@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Messenger</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/50ccabcbd3.js" crossorigin="anonymous"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-database.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div class="login">
+            <h1>🙏🏻 Vedansh Wedding Complements 📩 Messenger 📩 🙏🏻</h1>
+            <div class="login-form">
+              <input id="nameInput" placeholder="Enter your name">
+              <button id="joinBtn">Join</button>
+              <small class="name-alert"></small>
+            </div>
+        </div>
+        <div class="main">
+            <div class="user-list">
+                <h3>Active Users</h3>
+                <ul id="userList">
+                    <li>Sharad</li>    
+                    <li>Sharad</li>    
+                    <li>Sharad</li>    
+                </ul>
+            </div>
+            <div class="header">
+                <h2>Messenger</h2>
+                <button id="userBtn">
+                  <i class="fa fa-users" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="message-container"></div>
+            <div class="sending-form">
+                <input id="messageInput" placeholder="Type your message">
+                <button id="sendBtn">
+                  <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
